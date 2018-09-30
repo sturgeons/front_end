@@ -1,0 +1,93 @@
+@import 'react-bootstrap-table-all.min.scss';
+@import 's-alert-default.scss';
+@import 's-alert-css-effects/stackslide.scss';
+@import 'loading.min.scss';
+
+.container-ratio {
+	width: 100%;
+	padding: 0;
+	margin: 0 2px;
+	font-size:16pt;
+}
+
+body {
+	background-color: $body-bg;
+	color: $gray-lighter;
+	overflow-x: hidden;
+}
+
+.react-bs-table-csv-btn span, .status-bar .form-control, .status-bar .btn{
+	height: 45px;
+	font-size: 18pt;
+	font-weight: bolder;
+}
+
+.status-bar {
+	.form-control, .btn-default{width: 100%;}
+}
+
+.modal-open {
+	overflow-y: scroll;
+}
+
+.scan-btn {
+	margin-top: -7px;
+	padding-top: -15px;
+}
+
+.fx-input {
+	color: black;
+}
+
+.react-bs-table-search-form {
+	.input-group-btn>.react-bs-table-search-clear-btn, .form-control{
+		height: 45px;
+		font-size: 18pt;
+		font-weight: bolder;
+	}
+}
+
+.modal-dialog {
+	position: fixed;
+	right: 0;
+	bottom: 20px;
+}
+
+.mydialog .modal-dialog{
+	position: relative;
+}
+
+.modal-open {
+	padding-right: 0px;
+}
+
+.modal-header {
+	color: black;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.s-alert-box-inner {
+	text-align: left;
+}
+
+.tr-printed-data {
+	background-color: blue;
+}
+
+.tr-odd-data {
+	background-color: #373735;
+}
+
+.tr-even-data {
+	background-color: black;
+}
+
+.failureReason {
+	color: black;
+	text-indent: 2em;
+	font-size: 18pt;
+	font-weight: bolder;
+}

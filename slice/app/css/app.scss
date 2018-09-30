@@ -1,0 +1,186 @@
+@import 'react-bootstrap-table-all.min.scss';
+html {
+	background-color: $body-bg;
+}
+body {
+	background-color: $body-bg;
+	color: $gray-lighter;
+	overflow: hide;
+	padding: 15px;
+}
+
+.console-panel {
+	border: solid 1px #fff;
+	padding: 5px;
+}
+
+.console-error {
+	.wh-sotre-failure {
+		color: white;
+	}
+	background-color: red;
+}
+
+.console-btn {
+	font-size: 32pt;
+	font-weight: bolder;
+	height: 120px;
+	width: 100%;
+	margin: 3px;
+	padding: 0;
+}
+
+.console-clock {
+	font-size: 75pt;
+	padding: 60px 0;
+}
+
+.react-bs-table-container {
+	width: 100%;
+	padding: 0px;
+	font-size: 12pt;
+}
+
+.fx-unit-col {
+	font-size: 17pt;
+	font-weight: bolder;
+	padding: 0px 1px;
+	margin-top: 0;
+	height: 53px;
+	text-align: center;
+}
+
+.fx-unit-col .label-default, .fx-unit-col .label-primary, .fx-unit-col .label-danger {
+	padding-top: 12px;
+}
+
+.fx-unit-container {
+	padding: 6px 0;
+}
+
+.fx-unit-container .row {
+	padding: 1px 0;
+	margin: 0;
+}
+
+.label-default, .label-primary, .label-danger, .label-error {
+	height: 100%;
+}
+
+.label-primary {
+	background-color: #3692e0;
+}
+
+.label-error {
+	background-color: red;
+}
+
+.tr-odd {
+    background-color: #717171;
+}
+
+.tr-selected {
+	background-color: blue;
+}
+
+.modal-dialog {
+	position: fixed;
+	margin: 8%;
+	width: 84%;
+}
+
+.modal-header {
+	color: black;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.modal-backdrop.in {
+	opacity: 0.1;
+}
+
+.modal-m {
+	width: 45%;
+	margin: auto;
+}
+
+.wh-store-success {
+	color: green;
+	font-size: 24pt;
+	font-weight: bolder;
+}
+
+.wh-sotre-failure {
+	color: red;
+	font-size: 24pt;
+	font-weight: bolder;
+}
+
+.wh-store-default {
+	font-size: 24pt;
+	font-weight: bolder;
+}
+
+.mydialog .modal-dialog{
+	position: relative;
+}
+
+.form-control {
+	font-size: 24pt;
+	height: 50px;
+	font-weight: bolder;
+}
+
+.control-label {
+	font-size:20pt;
+	padding: 3px 0;
+}
+
+input.form-control:focus {
+	background-color: white;
+	color: black;
+	font-weight: bolder;
+	border: solid 1px white;
+}
+
+input.form-control, input.form-control:disabled {
+	background-color: gray;
+}
+
+.fx-full-screen-btn {
+	position: fixed;
+	// z-index: 2048;
+	left: 62%;
+	// top: 445px;
+	width: 50px;
+	height: 50px;
+}
+
+.fx-full-screen-btn.minxum {
+	background: #ebe8e9 url('../images/wh_screen_minxum.png') center center no-repeat;
+}
+
+.fx-full-screen-btn.full{
+	background: #e6f4fc url('../images/wh_screen_full.png') center center no-repeat;
+}
+
+.fx-full-screen-btn.minxum:hover, .fx-full-screen-btn.full:hover {
+    border: solid 2px white;
+}
+
+td:hover {
+	cursor: pointer;
+}
+
+.odd_row {
+	background-color: lightGray;
+	border-bottom: solid 1px yellow;
+	border-top: solid 1px yellow;
+}
+
+p {
+	font-weight: bolder;
+	font-size: 15pt;
+}

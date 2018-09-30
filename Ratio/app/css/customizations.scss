@@ -1,0 +1,47 @@
+//
+// Variables
+// --------------------------------------------------
+
+//== Colors
+//
+//## System common colors define.
+$body-bg: #000;
+$gray-base: #fff;
+$danger_color: #d9534f;
+$success_color: #449d44;
+$label_font_color: rgb(36,96,138);
+
+
+//== Images
+//
+//## System common images define.
+$uncheck: url('../images/uncheck.png');
+$check: url('../images/check.png');
+
+
+// Positions
+//
+//## System common positions define.
+$btn_icon_position: no-repeat 3px center;
+
+
+// Maps
+//
+//## System common map objects define.
+$buttons: (".btn-danger": $danger_color $uncheck, ".btn-success": $success_color $check);
+
+
+// Mixins
+//
+//## System common mixins define.
+@mixin btn_demension {
+	width: 100%;
+}
+
+@mixin fx-label($font-size) {
+  	font-size: $font-size;
+	font-weight: bolder;
+	background-color: rgb(36,96,138);
+	text-align:center;
+	letter-spacing: 3px;
+}

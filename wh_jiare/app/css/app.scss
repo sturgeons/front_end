@@ -1,0 +1,120 @@
+@import 'react-bootstrap-table-all.min.scss';
+html {
+	background-color: $body-bg;
+}
+body {
+	background-color: $body-bg;
+	color: $gray-lighter;
+	overflow: hide;
+	padding: 15px;
+}
+
+.console-panel {
+	border: solid 1px #fff;
+	padding: 5px;
+	height: 500px;
+}
+
+.console-btn {
+	font-size: 46pt;
+	font-weight: bolder;
+	height: 200px;
+	width: 100%;
+	margin: 3px;
+}
+
+.console-clock {
+	font-size: 75pt;
+	padding: 60px 0;
+}
+
+.react-bs-table-container {
+	width: 100%;
+	padding: 0px;
+	font-size: 12pt;
+}
+
+.tr-odd {
+    background-color: #717171;
+}
+
+.tr-selected {
+	background-color: blue;
+}
+
+.modal-dialog {
+	position: fixed;
+	right: 15px;
+	width: 470px;
+}
+
+.modal-header {
+	color: black;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.modal-backdrop.in {
+	opacity: 0.1;
+}
+
+.wh-store-success {
+	color: green;
+	font-size: 16pt;
+	font-weight: bolder;
+}
+
+.wh-sotre-failure {
+	color: red;
+	font-size: 16pt;
+	font-weight: bolder;
+}
+
+.form-control {
+	font-size: 13pt;
+	font-weight: bolder;
+}
+
+.wh-store-default {
+	font-size: 16pt;
+	font-weight: bolder;
+}
+
+.mydialog .modal-dialog{
+	position: relative;
+}
+
+.control-label {
+	font-size:14pt;
+}
+
+.fx-full-screen-btn {
+	position: fixed;
+	z-index: 2048;
+	left: 25px;
+	top: 445px;
+	width: 4%;
+	height: 50px;
+}
+
+.fx-full-screen-btn.minxum {
+	background: #ebe8e9 url('../images/wh_screen_minxum.png') center center no-repeat;
+}
+
+.fx-full-screen-btn.full{
+	background: #e6f4fc url('../images/wh_screen_full.png') center center no-repeat;
+}
+
+.fx-full-screen-btn.minxum:hover, .fx-full-screen-btn.full:hover {
+    border: solid 2px white;
+}
+
+td:hover {
+	cursor: pointer;
+}
+.store-message-container {padding-top: 3px;}
+.store-message-container td {cursor: default;}
+
+.tr-can-out {background-color: lightGreen; color: black;font-weight:bolder;}
