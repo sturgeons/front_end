@@ -1,0 +1,34 @@
+# dependencies
+fengpi/node_modules
+FengpiKanban/node_modules
+Kanban/node_modules
+Ratio/node_modules
+repair/node_modules
+Report/node_modules
+slice/node_modules
+Storage/node_modules
+wh_fapao/node_modules
+wh_jiare/node_modules
+wh_liangshai/node_modules
+zhuangpei/node_modules
+
+# production
+fengpi/build
+FengpiKanban/build
+Kanban/build
+Ratio/build
+repair/build
+Report/build
+slice/build
+Storage/build
+wh_fapao/build
+wh_jiare/build
+wh_liangshai/build
+zhuangpei/build
+
+
+# misc
+.DS_Store
+
+#log
+*.log
